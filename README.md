@@ -38,3 +38,33 @@ npm start
 
 章節 3 起另需 Qdrant；天氣工具另需 OpenWeather API key。金鑰只放在
 `.env` 或 Codespaces secrets，不要提交到 Git。
+
+## 作業五：新增 Git 老師
+
+從 `5.1-agents-md` 開始新增 Git 老師，負責 Git、GitHub、分支、合併、rebase 與 merge conflict 問題。班導師透過根目錄的 `AGENTS.md` 判斷相關問題並 handoff 給 Git 老師；天氣與時間等問題則由班導師使用工具處理。
+
+### 三段對話紀錄
+
+**1. Git 問題，交給 Git 老師**
+
+```text
+使用者：我想把目前分支合併到 main，遇到 merge conflict 該怎麼處理？
+[由 Git 老師 回答]
+Git 老師：先用 git status 查看衝突檔案，手動處理衝突標記後執行 git add，最後用 git commit 完成合併。
+```
+
+**2. Python 問題，交給原本的 Python 老師，不交給 Git 老師**
+
+```text
+使用者：Python 要怎麼讀取 JSON 檔案？
+[由 Python 老師 回答]
+Python 老師：可以使用 json 模組，透過 with open(...) as file 開啟檔案，再用 json.load(file) 讀取內容。
+```
+
+**3. 班導師使用工具回答，不交給 Git 老師**
+
+```text
+使用者：現在幾點？
+[由 班導師 回答]
+班導師：現在是台灣時間下午 4:20，這個答案由 get_current_time 工具查詢取得。
+```

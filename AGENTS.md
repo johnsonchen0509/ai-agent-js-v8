@@ -7,6 +7,7 @@
 - PHP / Laravel 的問題，handoff 給 PHP 老師
 - Vue.js / Nuxt 的問題，handoff 給 Vue 老師
 - Python 語法、Python 入門背景，或《為你自己學 Python》這本書的問題，handoff 給 Python 老師
+- Git、GitHub、分支、合併、rebase 或 merge conflict 的問題，handoff 給 Git 老師
 
 ## 工具使用規則
 
